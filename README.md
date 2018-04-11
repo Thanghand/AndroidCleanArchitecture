@@ -1,8 +1,9 @@
-#### AndroidCleanArchitecture
+# AndroidCleanArchitecture
 - Cooking (Android project)
 - Cooking-Backend (You have to start your backend first)
 ```
 $ npm install yarn -g
+$ yarn install
 $ yarn build
 $ yarn start
 ```
@@ -22,16 +23,16 @@ Architectural reactive approach
   4/ Extendable
   5/ Testable
   
-  # Clean Architecture have the same rules with Clean Code.
+### Clean Architecture have the same rules with Clean Code.
   
 - When you apply "Clean Architecture" in your project, you will split your code to many files and make them to be independent. Class does not dependence with orther.
 It will do with its scope.
 
-##  Do we need to split it to many files ? 
+###  Do we need to split it to many files ? 
 
 - Ok, I will give you some example here. 
 
-- I have a project which apply MVP pattern. I have one Presenter to handle my bussiness case. If my presenter have 3 or 4 usecase, you will know that my code really messy.
+- I have a project which apply MVP pattern. I have one Presenter to handle my bussiness case. If my presenter have 3 or 4 usecase, you will know that my code are really messy.
 
 ```
 class HomePresenter {
@@ -47,7 +48,7 @@ class HomePresenter {
 - My presenter will do a lot of things, and it contain many propterites and varaibles which they don't want to know. And they can make side effect.
 - If you maintain for this code, you really want to do it (@@).
 
-## The solutions for it, I will split bussiness logic to every files. When presenter want to use it just call them. 
+### The solutions for it, I will split bussiness logic to every files. When presenter want to use it just call them. 
 
 ```
 public class SearchRecipePresenter extends BasePresenter<SearchRecipeContract.ViewRecipeCallBack>

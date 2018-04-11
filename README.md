@@ -16,12 +16,13 @@ Architectural reactive approach
 -----------------
 ![http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/](https://github.com/android10/Sample-Data/blob/master/Android-CleanArchitecture/clean_architecture_layers_details.png)
 
-- Clean Architecture is a mindset of designed structure project. If you have read the "Clean code", you will know the rules to make your code clean.
-  1/ Readable
-  2/ Maintainable
-  3/ Scalable
-  4/ Extendable
-  5/ Testable
+* Clean Architecture is a mindset of designed structure project. If you have read the "Clean code", you will know the rules to make your code clean.
+
+  * Readable
+  * Maintainable
+  * Scalable
+  * Extendable
+  * Testable
   
 ### Clean Architecture have the same rules with Clean Code.
   

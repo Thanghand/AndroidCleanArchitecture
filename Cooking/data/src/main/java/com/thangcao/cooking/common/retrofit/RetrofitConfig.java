@@ -8,7 +8,7 @@ import okhttp3.Request;
 
 public final class RetrofitConfig {
 
-    public static final String BASE_URL = "http://10.0.0.13:3000/v1.0.0/fakeapi/";
+    public static final String BASE_URL = "http://localhost:3000/v1.0.0/fakeapi/";
     private static final int TIME_TWO_MINUTE = 2;
 
     public static OkHttpClient getClient() {

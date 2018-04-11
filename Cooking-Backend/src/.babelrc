@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "es2017"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "cwd": "babelrc",
+                "root": [
+                    "./src"
+                ]
+            }
+        ]
+    ]
+}
